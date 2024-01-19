@@ -1,0 +1,86 @@
+﻿<Window x:Class="WPF_Study._04简易记事本"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Study"
+        mc:Ignorable="d"
+        Title="04简易记事本" Height="450" Width="800">
+    <Grid ShowGridLines="True" Background="Azure">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+            <Button Width="40" Content="文件"/>
+            <Button Width="40" Content="编辑"/>
+            <Button Width="40" Content="查看"/>
+            <Button Width="40" Content="外观"/>
+            <Button Width="40" Content="设置"/>
+            <Button Width="40" Content="帮助"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
+            <Button Width="20" Content="1"/>
+            <Button Width="20" Content="2"/>
+            <Button Width="20" Content="3"/>
+            <Button Width="20" Content="4"/>
+            <Button Width="20" Content="5"/>
+            <Button Width="20" Content="6"/>
+        </StackPanel>
+
+        <Grid Grid.Row="2" Background="White" ShowGridLines="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <Button Height="20" Content="1"/>
+                <Button Height="20" Content="2"/>
+                <Button Height="20" Content="3"/>
+                <Button Height="20" Content="4"/>
+                <Button Height="20" Content="5"/>
+                <Button Height="20" Content="6"/>
+                <Button Height="20" Content="7"/>
+                <Button Height="20" Content="8"/>
+                <Button Height="20" Content="9"/>
+                <Button Height="20" Content="10"/>
+            </StackPanel>
+
+            <TextBox Grid.Column="1" TextWrapping="Wrap"/>
+
+        </Grid>
+
+        <Grid ShowGridLines="True" Grid.Row="3" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Column="0" Text="行 8/11"/>
+            <TextBlock Grid.Column="1" Text="列 3/2"/>
+            <TextBlock Grid.Column="2" Text="字符 3/2"/>
+            <TextBlock Grid.Column="3" Text="求值 --"/>
+            <TextBlock Grid.Column="4" Text="选定 --"/>
+            <TextBlock Grid.Column="5" Text="选行 --"/>
+            <TextBlock Grid.Column="6" Text="匹配 --"/>
+            <TextBlock Grid.Column="7" Text="48字节"/>
+            <TextBlock Grid.Column="8" Text="48字节"/>
+            <TextBlock Grid.Column="9" Text="48字节"/>
+            <TextBlock Grid.Column="10" Text="48字节"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
