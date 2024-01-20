@@ -1,12 +1,11 @@
-﻿<Window x:Class="WPF_Study.MainWindow"
+﻿<Window x:Class="WPF_Study._08全局样式的定义"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Study"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    
+        Title="08全局样式的定义" Height="450" Width="800">
     <StackPanel>
         <Button Style="{StaticResource LoginStyle}" Content="登录"/>
         <Button Style="{StaticResource QuitStyle}" Content="退出"/>

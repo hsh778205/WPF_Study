@@ -8,7 +8,42 @@
 
 但是这样的效率可能会更高一点——你可以Clone这个项目，在本地任意的玩耍，调整，省去的抄代码的时间
 
+## 使用方法
 
+1. 在`app.xaml`中修改启动页面为你需要查看的`页面.xaml`，启动项目。
+2. 将你想要演示的页面代码的`<Window>`标签以内的内容替换`MainWindow.xaml`，启动项目。
+
+看老师前几节课的人，应该都知道怎么做的吧~
+
+## 目录
+
+|              文件名              | 对应课程 |                           我的笔记                           |
+| :------------------------------: | :------: | :----------------------------------------------------------: |
+|        04简易记事本.xaml         |    04    | [布局控件：Grid和StackPanel ](https://www.cnblogs.com/Vanilla-chan/p/17975309/Grid-and-StackPanel) |
+|       05宽高尺寸演示.xaml        |    05    |                             同上                             |
+| 07定义Style样式与样式的继承.xaml |  06、07  | [Style：用法，多样性，全局样式与资源字典](https://www.cnblogs.com/Vanilla-chan/p/17977421/Style-Usage-and-Global-Style) |
+|      08全局样式的定义.xaml       |    08    |                             同上                             |
+|                                  |          |                                                              |
+
+### 注意事项
+
+08课程中修改了全局样式，需要修改`App.xaml`，替换为以下代码：
+
+```xaml
+<Application x:Class="WPF_Study.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPF_Study"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/WPF_Study;component/BaseButtomStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+```
 
 
 
