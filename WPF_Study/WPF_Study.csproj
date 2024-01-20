@@ -63,6 +63,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="07定义Style样式与样式的继承.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -72,6 +76,9 @@
     </Compile>
     <Compile Include="05宽高尺寸演示.xaml.cs">
       <DependentUpon>05宽高尺寸演示.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="07定义Style样式与样式的继承.xaml.cs">
+      <DependentUpon>07定义Style样式与样式的继承.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
