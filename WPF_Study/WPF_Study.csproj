@@ -71,7 +71,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="09-1自定义按钮模板.xaml">
+    <Page Include="09自定义按钮模板以及设置触发器.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -95,8 +95,8 @@
     <Compile Include="08全局样式的定义.xaml.cs">
       <DependentUpon>08全局样式的定义.xaml</DependentUpon>
     </Compile>
-    <Compile Include="09-1自定义按钮模板.xaml.cs">
-      <DependentUpon>09-1自定义按钮模板.xaml</DependentUpon>
+    <Compile Include="09自定义按钮模板以及设置触发器.xaml.cs">
+      <DependentUpon>09自定义按钮模板以及设置触发器.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>

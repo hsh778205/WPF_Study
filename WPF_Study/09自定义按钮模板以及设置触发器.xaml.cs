@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace WPF_Study
 {
     /// <summary>
-    /// _09_1自定义按钮模板.xaml 的交互逻辑
+    /// _09自定义按钮模板以及设置触发器.xaml 的交互逻辑
     /// </summary>
-    public partial class _09_1自定义按钮模板 : Window
+    public partial class _09自定义按钮模板以及设置触发器 : Window
     {
-        public _09_1自定义按钮模板()
+        public _09自定义按钮模板以及设置触发器()
         {
             InitializeComponent();
         }

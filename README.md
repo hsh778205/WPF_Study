@@ -17,17 +17,17 @@
 
 ## 目录
 
-|              文件名              | 对应课程 |                           我的笔记                           |
-| :------------------------------: | :------: | :----------------------------------------------------------: |
-|        04简易记事本.xaml         |    04    | [布局控件：Grid和StackPanel ](https://www.cnblogs.com/Vanilla-chan/p/17975309/Grid-and-StackPanel) |
-|       05宽高尺寸演示.xaml        |    05    |                             同上                             |
-| 07定义Style样式与样式的继承.xaml |  06、07  | [Style：用法，多样性，全局样式与资源字典](https://www.cnblogs.com/Vanilla-chan/p/17977421/Style-Usage-and-Global-Style) |
-|      08全局样式的定义.xaml       |    08    |                             同上                             |
-|     09-1自定义按钮模板.xaml      |  09上半  | [自定义按钮模板](https://www.cnblogs.com/Vanilla-chan/p/17978658/Customized-Button-Templates) |
-|                                  |          |                                                              |
-|                                  |          |                                                              |
-|                                  |          |                                                              |
-|                                  |          |                                                              |
+|               文件名                | 对应课程 |                           我的笔记                           |
+| :---------------------------------: | :------: | :----------------------------------------------------------: |
+|          04简易记事本.xaml          |    04    | [布局控件：Grid和StackPanel ](https://www.cnblogs.com/Vanilla-chan/p/17975309/Grid-and-StackPanel) |
+|         05宽高尺寸演示.xaml         |    05    |                             同上                             |
+|  07定义Style样式与样式的继承.xaml   |  06、07  | [Style：用法，多样性，全局样式与资源字典](https://www.cnblogs.com/Vanilla-chan/p/17977421/Style-Usage-and-Global-Style) |
+|        08全局样式的定义.xaml        |    08    |                             同上                             |
+| 09自定义按钮模板以及设置触发器.xaml |    09    | [自定义按钮模板以及设置触发器](https://www.cnblogs.com/Vanilla-chan/p/17978658/Customized-Button-Templates) |
+|                                     |          |                                                              |
+|                                     |          |                                                              |
+|                                     |          |                                                              |
+|                                     |          |                                                              |
 
 ### 注意事项
 
