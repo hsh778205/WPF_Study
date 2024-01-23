@@ -75,6 +75,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="10简易加法器.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="BaseButtomStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -97,6 +101,9 @@
     </Compile>
     <Compile Include="09自定义按钮模板以及设置触发器.xaml.cs">
       <DependentUpon>09自定义按钮模板以及设置触发器.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="10简易加法器.xaml.cs">
+      <DependentUpon>10简易加法器.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>

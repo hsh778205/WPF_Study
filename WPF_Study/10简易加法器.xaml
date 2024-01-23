@@ -1,12 +1,11 @@
-﻿<Window x:Class="WPF_Study.MainWindow"
+﻿<Window x:Class="WPF_Study._10简易加法器"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Study"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-
+        Title="10简易加法器" Height="450" Width="800">
     <Grid>
         <StackPanel>
             <Grid>
@@ -17,10 +16,10 @@
                 <TextBox x:Name="num1" Grid.Column="0" Width="200" Height="100" FontSize="30"/>
                 <TextBox x:Name="num2" Grid.Column="1" Width="200" Height="100" FontSize="30"/>
             </Grid>
-            
+
             <Button Content="点我计算" Width="200" Height="30" Click="Button_Click"  HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <TextBlock x:Name="txtTotal" Text="" HorizontalAlignment="Center"/>
-            
+
 
         </StackPanel>
 

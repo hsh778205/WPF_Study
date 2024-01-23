@@ -10,21 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WPF_Study
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// _10简易加法器.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class _10简易加法器 : Window
     {
-        public MainWindow()
+        public _10简易加法器()
         {
             InitializeComponent();
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             int a = Convert.ToInt32(num1.Text);
