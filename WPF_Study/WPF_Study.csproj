@@ -83,6 +83,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="14图书馆程序（二）绑定.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="BaseButtomStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -115,6 +119,9 @@
     </Compile>
     <Compile Include="11图书馆程序（一）.xaml.cs">
       <DependentUpon>11图书馆程序（一）.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="14图书馆程序（二）绑定.xaml.cs">
+      <DependentUpon>14图书馆程序（二）绑定.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>

@@ -11,17 +11,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WPF_Study
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// _14图书馆程序_二_绑定.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window, INotifyPropertyChanged
+    public partial class _14图书馆程序_二_绑定 : Window, INotifyPropertyChanged
     {
-        public MainWindow()
+        public _14图书馆程序_二_绑定()
         {
             InitializeComponent();
             this.DataContext = this;
@@ -62,7 +61,7 @@ namespace WPF_Study
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            if (UserName == "wpf" && Password == "777")
+            if (UserName == "wpf" && Password == "666")
             {
                 //MessageBox.Show("Login");
                 Index index = new Index();
