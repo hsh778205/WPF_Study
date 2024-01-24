@@ -45,3 +45,7 @@ D:\Github\WPF_Study\WPF_Study\obj\Debug\09自定义按钮模板以及设置触�
 D:\Github\WPF_Study\WPF_Study\obj\Debug\09自定义按钮模板以及设置触发器.baml
 D:\Github\WPF_Study\WPF_Study\obj\Debug\10简易加法器.g.cs
 D:\Github\WPF_Study\WPF_Study\obj\Debug\10简易加法器.baml
+D:\Github\WPF_Study\WPF_Study\obj\Debug\Index.g.cs
+D:\Github\WPF_Study\WPF_Study\obj\Debug\Index.baml
+D:\Github\WPF_Study\WPF_Study\obj\Debug\11图书馆程序（一）.g.cs
+D:\Github\WPF_Study\WPF_Study\obj\Debug\11图书馆程序（一）.baml

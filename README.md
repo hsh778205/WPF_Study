@@ -10,24 +10,26 @@
 
 ## 使用方法
 
-1. 在`app.xaml`中修改启动页面为你需要查看的`页面.xaml`，启动项目。
+1. 在`App.xaml`中修改启动页面为你需要查看的`页面.xaml`，启动项目。
 2. 将你想要演示的页面代码的`<Window>`标签以内的内容替换`MainWindow.xaml`，启动项目。
 
 看老师前几节课的人，应该都知道怎么做的吧~
 
+更建议使用第一个方法。
+
 ## 目录
 
-|                  文件名                  | 对应课程 |                           我的笔记                           |
-| :--------------------------------------: | :------: | :----------------------------------------------------------: |
-|            04简易记事本.xaml             |    04    | [布局控件：Grid和StackPanel ](https://www.cnblogs.com/Vanilla-chan/p/17975309/Grid-and-StackPanel) |
-|           05宽高尺寸演示.xaml            |    05    |                             同上                             |
-|     07定义Style样式与样式的继承.xaml     |  06、07  | [Style：用法，多样性，全局样式与资源字典](https://www.cnblogs.com/Vanilla-chan/p/17977421/Style-Usage-and-Global-Style) |
-|          08全局样式的定义.xaml           |    08    |                             同上                             |
-|   09自定义按钮模板以及设置触发器.xaml    |    09    | [自定义按钮模板以及设置触发器](https://www.cnblogs.com/Vanilla-chan/p/17978658/Customized-Button-Templates) |
-| 10C#代码事件.xaml & 10C#代码事件.xaml.cs |    10    | [C#代码事件](https://www.cnblogs.com/Vanilla-chan/p/17983427/CSharp-Code-Events) |
-|                                          |          |                                                              |
-|                                          |          |                                                              |
-|                                          |          |                                                              |
+|                            文件名                            | 对应课程 |                           我的笔记                           |
+| :----------------------------------------------------------: | :------: | :----------------------------------------------------------: |
+|                      04简易记事本.xaml                       |    04    | [布局控件：Grid和StackPanel ](https://www.cnblogs.com/Vanilla-chan/p/17975309/Grid-and-StackPanel) |
+|                     05宽高尺寸演示.xaml                      |    05    |                             同上                             |
+|               07定义Style样式与样式的继承.xaml               |  06、07  | [Style：用法，多样性，全局样式与资源字典](https://www.cnblogs.com/Vanilla-chan/p/17977421/Style-Usage-and-Global-Style) |
+|                    08全局样式的定义.xaml                     |    08    |                             同上                             |
+|             09自定义按钮模板以及设置触发器.xaml              |    09    | [自定义按钮模板以及设置触发器](https://www.cnblogs.com/Vanilla-chan/p/17978658/Customized-Button-Templates) |
+|           10C#代码事件.xaml & 10C#代码事件.xaml.cs           |    10    | [C#代码事件](https://www.cnblogs.com/Vanilla-chan/p/17983427/CSharp-Code-Events) |
+| 11图书馆程序（一）.xaml & 11图书馆程序（一）.xaml.cs & Index.xaml |  11-13   |                              无                              |
+|                                                              |          |                                                              |
+|                                                              |          |                                                              |
 
 ### 注意事项
 
@@ -49,7 +51,9 @@
 </Application>
 ```
 
-10有用到后端代码`10C#代码事件.xaml.cs`，若复制使用需要一并复制。
+10、11有用到后端代码`10C#代码事件.xaml.cs`，若复制使用需要一并复制。
+
+还是修改`App.xaml`更方便一点。
 
 ## 协议
 

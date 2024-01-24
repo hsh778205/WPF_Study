@@ -10,21 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WPF_Study
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// _11图书馆程序_一_.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class _11图书馆程序_一_ : Window
     {
-        public MainWindow()
-        {   
+        public _11图书馆程序_一_()
+        {
             InitializeComponent();
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string userName = txtName.Text;
