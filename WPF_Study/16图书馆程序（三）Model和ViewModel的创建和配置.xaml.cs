@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,24 +10,22 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WPF_Study
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// _16图书馆程序_三_Model和ViewModel的创建和配置.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class _16图书馆程序_三_Model和ViewModel的创建和配置 : Window
     {
         LoginVM loginVM;
-        public MainWindow()
+        public _16图书馆程序_三_Model和ViewModel的创建和配置()
         {
             InitializeComponent();
             loginVM = new LoginVM();
             this.DataContext = loginVM;
         }
-        
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
@@ -48,9 +45,5 @@ namespace WPF_Study
             }
         }
     }
-
-    
-       
-
-    
 }
+

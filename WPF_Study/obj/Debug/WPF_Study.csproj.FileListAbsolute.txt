@@ -51,3 +51,5 @@ D:\Github\WPF_Study\WPF_Study\obj\Debug\11图书馆程序（一）.g.cs
 D:\Github\WPF_Study\WPF_Study\obj\Debug\11图书馆程序（一）.baml
 D:\Github\WPF_Study\WPF_Study\obj\Debug\14图书馆程序（二）绑定.g.cs
 D:\Github\WPF_Study\WPF_Study\obj\Debug\14图书馆程序（二）绑定.baml
+D:\Github\WPF_Study\WPF_Study\obj\Debug\16图书馆程序（三）Model和ViewModel的创建和配置.g.cs
+D:\Github\WPF_Study\WPF_Study\obj\Debug\16图书馆程序（三）Model和ViewModel的创建和配置.baml
