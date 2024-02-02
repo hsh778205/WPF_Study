@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Study", "WPF_Study\WPF_Study.csproj", "{8ADE8AF6-7F7C-4AFF-A764-F888E6ABD147}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Study_LIBRARY", "WPF_Study_LIBRARY\WPF_Study_LIBRARY.csproj", "{843F75B0-83F5-4582-8052-99B78722CFBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8ADE8AF6-7F7C-4AFF-A764-F888E6ABD147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ADE8AF6-7F7C-4AFF-A764-F888E6ABD147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ADE8AF6-7F7C-4AFF-A764-F888E6ABD147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{843F75B0-83F5-4582-8052-99B78722CFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843F75B0-83F5-4582-8052-99B78722CFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843F75B0-83F5-4582-8052-99B78722CFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843F75B0-83F5-4582-8052-99B78722CFBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,17 @@
+D:\Github\WPF_Study\WPF_Study_LIBRARY\bin\Debug\WPF_Study_LIBRARY.exe.config
+D:\Github\WPF_Study\WPF_Study_LIBRARY\bin\Debug\WPF_Study_LIBRARY.exe
+D:\Github\WPF_Study\WPF_Study_LIBRARY\bin\Debug\WPF_Study_LIBRARY.pdb
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\WPF_Study_LIBRARY.csproj.AssemblyReference.cache
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\Index.g.cs
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\MainWindow.g.cs
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\App.g.cs
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\WPF_Study_LIBRARY_MarkupCompile.cache
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\WPF_Study_LIBRARY_MarkupCompile.lref
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\Index.baml
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\MainWindow.baml
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\WPF_Study_LIBRARY.g.resources
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\WPF_Study_LIBRARY.Properties.Resources.resources
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\WPF_Study_LIBRARY.csproj.GenerateResource.cache
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\WPF_Study_LIBRARY.csproj.CoreCompileInputs.cache
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\WPF_Study_LIBRARY.exe
+D:\Github\WPF_Study\WPF_Study_LIBRARY\obj\Debug\WPF_Study_LIBRARY.pdb

@@ -1,0 +1,48 @@
+﻿<Window x:Class="WPF_Study_LIBRARY.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Study_LIBRARY"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="马鞍山市 - 市图书馆" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <StackPanel Grid.Row="1" Background="#0078e4">
+            <TextBlock Text="Login System" FontSize="22" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"/>
+        </StackPanel>
+        <Grid Grid.Row="3" HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="UserName" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding UserName}" Grid.Row="0" Grid.Column="1" Margin="2"/>
+
+            <TextBlock Text="Password" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding Password}" Grid.Row="1" Grid.Column="1" Margin="2"/>
+
+            <CheckBox Content="Remember Password" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+            <Button Grid.Row="3" Grid.ColumnSpan="2" Content="Login" Command="{Binding LoginAction}"/>
+        </Grid>
+
+
+
+    </Grid>
+
+</Window>
